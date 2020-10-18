@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fuhrparkmanager</string>
+    <string name="carList">Übersicht Fahrzeuge</string>
+    <string name="addCar">Fahrzeug hinzugfügen</string>
+    <string name="showCalender">Kalender</string>
+    <string name="book">Fahrzeug buchen</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="logIn">Anmelden</string>
+
+
+</resources>
