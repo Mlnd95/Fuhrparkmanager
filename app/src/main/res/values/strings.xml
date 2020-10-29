@@ -7,6 +7,15 @@
     <string name="username">Benutzername</string>
     <string name="password">Passwort</string>
     <string name="logIn">Anmelden</string>
+    <string name="carProducer">Anmelden</string>
+    <string name="carModel">Anmelden</string>
+    <string name="carNumber">Kennzeichen</string>
+    <string name="buildYear">Baujahr</string>
+    <string name="power">Leistung(PS)</string>
+    <string name="passengers">Sitzplätze</string>
+    <string name="style">Bauart</string>
+    <string name="kilometers">Kilometerstand</string>
+
 
 
 </resources>

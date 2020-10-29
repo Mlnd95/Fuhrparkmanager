@@ -12,5 +12,6 @@
         android:layout_height="wrap_content"
         android:text="Fahrzeug hinzufügen"
         tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="268dp" />
+        tools:layout_editor_absoluteY="268dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
