@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".CalenderActivity" />
         <activity android:name=".AddCarActivity" />
+        <activity android:name=".DisplayCar" />
         <activity android:name=".CarsActivity" />
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".RegisterActivity" />

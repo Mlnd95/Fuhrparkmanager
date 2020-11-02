@@ -1,8 +1,15 @@
 package com.example.myapplication1;
 
-public class DisplayCar {
+import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 
+public class DisplayCar extends AppCompatActivity {
 
-
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.display_car);
+    }
 }
+

@@ -42,7 +42,7 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openActivityAddCar(){
-        Intent intent = new Intent(this, AddCarActivity.class);
+        Intent intent = new Intent(this, DisplayCar.class);
         startActivity(intent);
     }
 
@@ -50,4 +50,6 @@ public class MainMenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CarsActivity.class);
         startActivity(intent);
     }
+
+
 }

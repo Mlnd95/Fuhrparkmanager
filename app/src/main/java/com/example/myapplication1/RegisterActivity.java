@@ -61,13 +61,6 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
 
-
-
-
-
-
-
-
         SignIn = (Button) findViewById(R.id.backLogin);
         SignIn.setOnClickListener(new View.OnClickListener(){
             @Override

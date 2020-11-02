@@ -1,5 +1,6 @@
 package com.example.myapplication1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -28,6 +29,8 @@ public class CarsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getApplicationContext(),"You Clicked"+numberWord[+position],Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(),DisplayCar.class);
+                startActivity(intent);
             }
         });
     }
