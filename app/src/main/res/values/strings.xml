@@ -15,7 +15,9 @@
     <string name="passengers">Sitzplätze</string>
     <string name="style">Bauart</string>
     <string name="kilometers">Kilometerstand</string>
-
+    <string name="register">Registrieren</string>
+    <string name="reEnterPassword">Password wiederholen</string>
+    <string name="backToLogin">Zurück zur Anmeldung</string>
 
 
 </resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="72dp"
+        android:text="@string/register"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/backLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPasswordReenter"
+        tools:text="@string/register" />
+
+    <EditText
+        android:id="@+id/userNameRegister"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/userPasswordRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/username" />
+
+    <EditText
+        android:id="@+id/userPasswordRegister"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/userPasswordReenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userNameRegister"
+        tools:text="@string/password" />
+
+    <EditText
+        android:id="@+id/userPasswordReenter"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="62dp"
+        android:ems="10"
+        android:hint="@string/reEnterPassword"
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPasswordRegister"
+        tools:text="@string/reEnterPassword" />
+
+    <Button
+        android:id="@+id/backLogin"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="108dp"
+        android:text="@string/backToLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        tools:text="@string/backToLogin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
